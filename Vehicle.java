@@ -27,13 +27,11 @@ public class Vehicle
     /**
      * getter methods for three instance variables
      */
-    public double getHorsepower()
-    {
+    public double getHorsepower() {
         return horsepower;
     }
 
-    public double getAerodynamics()
-    {
+    public double getAerodynamics(){
         return aerodynamics;
     }
 
