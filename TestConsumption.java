@@ -23,20 +23,14 @@ class TestConsumption extends Frame
     public static void main(String[] param)
     {
         //Fuel consumption of first car
-        GIU screen = new GIU("Exercise 6 - GIU");
-        screen.setSize(500,100);
-        screen.setVisible(true);
-        screen.addWindowListener(new WindowAdapter() {
-            public void windowClosing(WindowEvent ev) {
-                System.exit(0);
-            }
-        });
+        new GUI();
+
 
 
     }
 }
 
-
+/**
 class GIU extends Frame
 {
     public void actionPerformed(ActionEvent e){
@@ -100,6 +94,6 @@ class GIU extends Frame
 
 }
 
-
+*/
 
 
